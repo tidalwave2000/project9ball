@@ -83,21 +83,22 @@
             <div class ="flex-container">
                 <div class="row row-content">
                     <div class="col-sm-6 mx-auto">
-                        <div class="card" id="scoreSheet9ball">
+                        <div class="card" id="matchTotal">
                             <h3 class="card-header badge-primary text-white">PROJECT 9-BALL MATCH TOTAL</h3>
                             <div class="card-body">
-                                <form action="sumbit"> 
+                                <form> 
 
-
+                                    <!--
                                     <div class="row form-group">
                                         <label for="matchNum" class="col col-sm-6 col-form-label"><strong><u>MATCH NUMBER: </u></strong></label>
-
-                                        <!--Display the current match number-->
+                                    -->
+                                        <!--Display the current match number
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="matchNum" name="matchNum" placeholder="MATCH #" />
+                                            <input type="number" class="form-control" id="matchNum" name="matchNum" placeholder="MATCH #" />
                                         </div>
-                                    </div>
-
+                                    </div> 
+                                        -->
+                            
                                     <!--FIRST PLAYER BEGINS-->
 
                                     <div class="form-group row">
@@ -113,17 +114,17 @@
 
                                         <label for="player1TP" class="col-sm-4 col-md-6 col-form-label">TOTAL POINTS</label>
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="player1TP" name="player1TP" placeholder="TOTAL POINTS" />
+                                            <input type="number" class="form-control" id="player1TP" name="player1TP" placeholder="TOTAL POINTS" />
                                         </div>
 
                                         <label for="player1MP" class="col-sm-4 col-md-6 col-form-label">MATCH POINTS</label>
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="player1MP" name="player1MP" placeholder="MATCH POINTS" />
+                                            <input type="number" class="form-control" id="player1MP" name="player1MP" placeholder="MATCH POINTS" />
                                         </div>
 
                                         <label for="runningTotal1" class="col-sm-4 col-md-6 col-form-label">RUNNING TOTAL</label>
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="runningTotal1" name="runningTotal1" placeholder="RUNNING TOTAL" />
+                                            <input type="number" class="form-control" id="runningTotal1" name="runningTotal1" placeholder="RUNNING TOTAL" />
                                         </div>
                                     </div>
                                         
@@ -146,17 +147,17 @@
 
                                         <label for="player2TP" class="col-sm-4 col-md-6 col-form-label">TOTAL POINTS</label>
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="player2TP" name="player2TP" placeholder="TOTAL POINTS" />
+                                            <input type="number" class="form-control" id="player2TP" name="player2TP" placeholder="TOTAL POINTS" />
                                         </div>
 
                                         <label for="player2MP" class="col-sm-4 col-md-6 col-form-label">MATCH POINTS</label>
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="player2MP" name="player2MP" placeholder="MATCH POINTS" />
+                                            <input type="number" class="form-control" id="player2MP" name="player2MP" placeholder="MATCH POINTS" />
                                         </div>
 
                                         <label for="runningTotal2" class="col-sm-4 col-md-6 col-form-label">RUNNING TOTAL</label>
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="runningTotal2" name="runningTotal2" placeholder="RUNNING TOTAL" />
+                                            <input type="number" class="form-control" id="runningTotal2" name="runningTotal2" placeholder="RUNNING TOTAL" />
                                         </div>
 
                                         <label for="totalInnings" class="col-sm-4 col-md-6 col-form-label">TOTAL INNINGS</label>
@@ -168,13 +169,16 @@
                                             <div class="col">
                                                  
                                                 <button type="submit" class="btn btn-primary" onclick="matchPoints()">NEXT</button> 
+                                                
+                                                <!--
                                                 <button type="submit" class="btn btn-primary" onclick="endOfMatches()">END OF MATCHES</button> 
+                                                -->
                                             </div>
                                         </div>
                                     </div>
                                 </form>
                                 
-                            </div>
+                            </div>  
                         </div>
                     </div>
                 </div>
