@@ -1,14 +1,17 @@
+
+const teamNumber1 = document.getElementById("teamNum").value;
+const teamNumber2 = document.getElementById("teamNum2").value;
+let playerNumber1 = document.getElementById("playerNum1").value;
+let playerNumber2 = document.getElementById("playerNum2").value;
+let playerNam1 = document.getElementById("playerName1").value;
+let playerNam2 = document.getElementById("playerName2").value;
+let playerRank1 = document.getElementById("playerSkill1").value;
+let playerRank2 = document.getElementById("playerSkill2").value;
+let match = 1;
+
+
 function playerInfo() {
-    alert('this is the player Information function');
-    const teamNumber1 = document.getElementById("teamNum").value;
-    const teamNumber2 = document.getElementById("teamNum2").value;
-    let playerNumber1 = document.getElementById("playerNum1").value;
-    let playerNumber2 = document.getElementById("playerNum2").value;
-    let playerNam1 = document.getElementById("playerName1").value;
-    let playerNam2 = document.getElementById("playerName2").value;
-    let playerRank1 = document.getElementById("playerSkill1").value;
-    let playerRank2 = document.getElementById("playerSkill2").value;
-    let match = match + 1;
+    
     alert("Player Information Saved");
     window.location.href = "lag9-ball.html";
 }
@@ -55,7 +58,7 @@ function matchPoints() {
 
 function totalTeamScore() {
     alert("this is the total points function");
-    
+
     
 }
 
